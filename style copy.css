@@ -1,0 +1,77 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #FEFAFE;
+}
+
+p {
+  color: #4891ff;
+  font-size: 15px;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 4em;
+  color: #7e2c62;
+}
+
+h2 {
+  color: #8437a9;
+}
+
+h3 {
+  color: #74005a;
+}
+h6{
+    text-align: center;
+}
+.navbar {
+  background-color: #decbe8;
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+.navbar a:hover {
+  background-color: #decbe8;
+  color: black;
+  border-radius: 5px;
+}
+
+.navbar a.active {
+  background-color: #8437a9;
+  color: white;
+  border-radius: 5px;
+}
+
+#mySearch {
+  width: 30%;
+  font-size: 14px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 300px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container{
+    margin-left: 5%;
+    margin-right: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cats{
+    margin-left: 20%;
+}
