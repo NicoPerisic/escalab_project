@@ -86,10 +86,12 @@ p[name="descript"] {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 1em 4em 1em 4em;
+  margin: 1em 2em 1em 4em;
   background-color: #fcf6fb;
   padding-left: 2em;
   border-radius: 0.8em;
+  padding-bottom: 2em;
+  margin-bottom: 4em;
 }
 
 .containerB{
@@ -123,7 +125,7 @@ p[name="descript"] {
 
 .contactimg {
   position: relative;
-  margin-left: 25rem;
+  margin-left: 28rem;
   margin-top: -30em;
   z-index: 1;
 }
@@ -131,7 +133,7 @@ p[name="descript"] {
 .contactform {
   position: relative;
   width: 30rem;
-  z-index: 3;
+  z-index: 2;
 }
 
 input {
@@ -155,6 +157,7 @@ input[name="message"] {
   background-color: #901797;
   color: white;
   border-radius: 5px;
+  width: 8em;
 }
 
 .btnsend {
@@ -171,13 +174,10 @@ input[name="message"] {
 }
 
 .contactbtn{
-  float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  border-radius: 5px;
   background-color: #901797;
   color: white;
   border-radius: 5px;
